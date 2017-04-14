@@ -3,10 +3,176 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
   </head>
   <body>
+    <header>
+      <div class="container clearfix">
+        <div class="navigation">
+          <div class="header-logo">
+            <a class="header-logo">
+            <img src="img/nerds-logo.png" width="160" height="65" alt="Nerd's"> 
+            </a>
+          </div>
+          <ul class="main-navigation">
+            <li><a class="active" href="index.html">Студия</a></li>
+            <li><a href="references.html">Клиенты</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="basket"> 
+          <a href="basket.html">Корзина</a>
+        </div>
+      </div>
+      
+      <div class="slider">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </div>
+        <div class="slides">
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Долго, дорого, скрупулезно.</div>
+              <p>Математически выверенный дизайн<br>
+              для вашего сайта или мобильного приложения.</p>
+              <a class="btn" href="more.html">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Любим математику как никто другой</div>
+              <p>Никакого креатива, только математические формулы<br>
+              для расчета идеальных пропорций.</p>
+              <a class="btn" href="more.html">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Только ночь, только хардкор</div>
+              <p>Работать днем как все? Мы против этого.<br>
+              Ближе к полуночи работа только начинается.</p>
+              <a class="btn" href="more.html">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <main class="container">    
+      <section class="items-float clearfix">
+        <div class="web">
+          <img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайты">
+          <h2 class="items-title">Веб-сайты</h2>
+          <p class="item-text">Мир никогда не будет прежним после того, как увидит ваш сайт!</p>
+          <a class="btn1" href="order.html">Заказать</a>
+        </div>    
+        <div class="app">
+          <img src="img/illustration-2.jpg" width="300" height="146" alt="Приложения">
+          <h2 class="items-title">Приложения</h2>
+          <p class="item-text">Покорите топ-10 приложений в AppStore и Google Play!</p>
+          <a class="btn2" href="order.html">Заказать</a> 
+        </div>
+        <div class="presentations">
+          <img src="img/illustration-3.jpg" width="300" height="146" alt="Презентации">
+          <h2 class="items-title">Презентации</h2>
+          <p class="item-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+          <a class="btn3" href="order.html">Заказать</a> 
+        </div>
+      </section>
 
+      <section class="about-us-float clearfix">
+        <div class="we-are">
+          <p class="we-are-text">Мы — маленькая, но гордая 
+           дизайн-студия из Краснодара.</p> 
+          <p class="we-are-text2">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <p class="we-are-text3">Выполняем заказы на разработку:</p>
+          <ul class="items-list">
+            <li>Веб-сайтов любой сложности</li>
+            <li class="pseudo">Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div> 
+        <div class="logo">
+          <img src="img/nerds-illustration.jpg" width="360" height="208" alt="nerd's">   
+          <div class="year">С 2004 года любим точность во всем:</div>
+          <div class="accuracy">
+            <p class="percents">146<sup>%</sup></p> 
+            <div class="percents-offer">
+              <p class="p-percents-offer">Уровень самоотдачи</p> 
+            </div>  
+          </div> 
+          <div class="accuracy">
+            <p class="percents">100<sup>%</sup></p> 
+            <div class="percents-offer">
+              <p class="p-percents-offer">Соблюдение сроков</p>   
+            </div>
+          </div>
+          <div class="accuracy">
+            <p class="percents">50<sup>%</sup></p> 
+            <div class="percents-offer">
+              <p class="p-percents-offer">Минимальная предоплата</p>   
+            </div>
+          </div>
+        </div>    
+      </section>
+       
+      <div class="examples-logo clearfix">
+        <a class="academy-logo" href="academy.html"> 
+          <img src="img/logo-1.png" width="199" height="68" alt="html"></a>
+        <a class="borodinsky-logo" href="borodinsky.html"> 
+          <img src="img/logo-2.png" width="209" height="87" alt="borodinsky"></a>
+        <a class="pink-logo" href="pink.html"> 
+          <img src="img/logo-3.png" width="185" height="52" alt="pink"></a>
+        <a class="mishka-logo" href="mishka.html"> 
+          <img src="img/logo-4.png" width="173" height="84" alt="mishka"></a>
+      </div>  
+    </main>
+    
+    <div class="map">
+      <div class="adress">
+        <b>nёrds design studio</b>
+        <p>191186, Санкт-Петербург, <br>
+            ул. Б. Конюшенная, д. 19/8 </p>
+        <p> тел. +7 (812) 275-75-75</p>  
+        <a class="btn" href="writeus.html">напишите нам</a>   
+      </div>
+      <div class="modal-content">
+        <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+        <p class="modal-content-title">Напишите нам</p>
+        <p class="modal-content-text">Ваше имя:</p>
+        <p class="modal-content-text3">Ваш e-mail:</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+          <input class="icon-user" type="text" name="nickname" placeholder="Представьтесь, пожалуйста">
+          <input class="icon-email" type="email"  name="email" placeholder="Для отправки ответа">
+          <p class="modal-content-text2">Текст письма:</p> 
+          <textarea class="icon-text" name="text" rows="5" placeholder="В свободной форме"></textarea>
+          <button class="modal-btn" type="submit">отправить</button>
+        </form>
+      </div>
+    </div>
+    
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-social clearfix">
+          <div class="footer-btn">
+            <a class="vk" href="vk.com"></a>
+            <a class="fb" href="facebook.com"></a>
+            <a class="im" href="instagram.com"></a>
+          </div>
+          <div class="footer-offer">
+            <p class="friends">Давайте дружить, это выгодно!</p>
+            <p class="discount">Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </section>
+      </div>
+    </footer>  
   </body>
 </html>

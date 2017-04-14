@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <header>
+      <div class="container clearfix">
+        <div class="navigation">
+          <div class="header-logo">
+            <a class="header-logo" href="index.html">
+              <img src="img/nerds-logo.png" width="160" height="65" alt="Nerd's"> 
+            </a>
+          </div>
+          <ul class="main-navigation">
+            <li><a href="index.html">Студия</a></li>
+            <li><a href="references.html">Клиенты</a></li>
+            <li><a class="active" href="shop.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="basket"> 
+          <a href="basket.html">Корзина</a>
+        </div>
+      </div>
+      <div class="shop">
+        <h1>Магазин готовых шаблонов</h1>      
+      </div>
+    </header>
+    
+    <main class="container">
+      <div class="sort-bar">
+        <p class="sort-bar1">Стоимость:</p>
+        <p class="sort-bar11">Сортировать:</p>
+        <p class="sort-bar2">По цене</p>
+        <p class="sort-bar22">По типу</p>
+        <p class="sort-bar22">По названию</p>
+      </div>
+      <div class="float-shop clearfix">
+        <section class="sidebar"> 
+          <div class="form">
+            <form action="echo.htmlacademy.ru" method="get">
+              <div class="range-filter">
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
+                </div>
+                <div class="price-controls">
+                  <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                  <label class="max-price">до <input name="max-price" type="text" value="15 000"></label>
+                </div>
+              </div>
+              <p class="sort-bar3"> Сетка:</p>
+              <input type="radio" name="grid" value="adaptive" checked id="r1">
+              <label for="r1">Адаптивная</label>
+              <input type="radio" name="grid" value="rubber" id="r2">
+              <label for="r2">Фиксированная</label>
+              <input type="radio" name="grid" value="fix" id="r3">
+              <label for="r3">Резиновая</label>
+              <p class="sort-bar4">Особенности:</p>
+              <input type="checkbox" name="slider" checked id="ch1">
+              <label for="ch1">Слайдер</label>
+              <input type="checkbox" name="advantages" id="ch2">
+              <label for="ch2">Блок преимуществ</label>
+              <input type="checkbox" name="news" checked id="ch3">
+              <label for="ch3">Новости</label>
+              <input type="checkbox" name="gallery" id="ch4">
+              <label for="ch4">Галерея</label>
+              <input type="checkbox" name="basket" id="ch5">
+              <label for="ch5">Корзина</label>
+              <input type="submit" class="button" value="Показать">
+            </form>    
+          </div>
+        </section>
+
+        <section class="shop-items">
+          <div class="items clearfix">
+            <div class="items-conteiner">
+              <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">    
+              <div class="hover">
+                <a href="sedona.html">
+                  <b>Sedona</b>
+                </a>
+                <p class="p-sedona">Информационный сайт для туристов</p> 
+                <div class="btn">9 900 руб.</div>  
+              </div>    
+            </div> 
+            <div class="items-conteiner">
+              <img src="img/img-pink.jpg" width="360" height="576" alt="Pink"> 
+              <div class="hover">
+                <a href="pink.html">
+                  <b>Pink app</b>
+                </a>
+                <p class="p-pink">Продуктовый лендинг приложения для iOS и Android</p> 
+                <div class="btn">9 900 руб.</div>  
+              </div>     
+            </div> 
+            <div class="items-conteiner">
+              <img src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">  
+              <div class="hover">
+                <a href="barbershop.html">
+                  <b>Barbershop</b>
+                </a>
+                <p class="p-barbershop">Сайт салона красоты. Для мужчин, да.</p> 
+                <div class="btn">9 900 руб.</div>  
+              </div>    
+            </div>    
+            <div class="items-conteiner">
+              <img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka"> 
+              <div class="hover">
+                <a href="mishka.html">
+                  <b>Mishka</b>
+                </a>
+                <p class="p-mishka">Интернет магазин вязаных игрушек</p> 
+                <div class="btn">9 900 руб.</div>  
+              </div>     
+            </div>   
+            <div class="items-conteiner">
+              <img src="img/img-aplus.jpg" width="360" height="576" alt="Aplus">     
+              <div class="hover">
+                <a href="aplus.html">
+                  <b>A plus</b>
+                </a>
+                <p class="p-aplus">Лендинг курсов повышения квалификации</p> 
+                <div class="btn">9 900 руб.</div>  
+              </div>
+            </div>       
+            <div class="items-conteiner">
+              <img src="img/img-kvast.jpg" width="360" height="576" alt="Kvast"> 
+              <div class="hover">
+                <a href="kvast.html">
+                  <b>Кваст</b>
+                </a>
+                <p class="p-kvast">Промо-сайт производителя крафтового кваса.</p> 
+                <div class="btn">9 900 руб.</div>  
+              </div>   
+            </div>      
+          </div>  
+        </section>
+      </div>
+      <div class="paginator">
+        <a class="normal current" href="first.html">1</a>
+        <a class="normal" href="second.html">2</a>
+        <a class="normal" href="third.html">3</a>
+        <a class="next" href="next.html">Следующая</a>
+      </div>
+    </main>
+    <div class="map">
+      <div class="adress">
+        <b>nёrds design studio</b>
+        <p>191186, Санкт-Петербург, <br>
+        ул. Б. Конюшенная, д. 19/8 </p>
+        <p> тел. +7 (812) 275-75-75</p>  
+        <a class="btn" href="writeus.html">напишите нам</a>   
+      </div>
+      
+      <div class="modal-content">
+        <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+        <p class="modal-content-title">Напишите нам</p>
+        <p class="modal-content-text">Ваше имя:</p>
+        <p class="modal-content-text3">Ваш e-mail:</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+          <input class="icon-user" type="text" name="nickname" placeholder="Представьтесь, пожалуйста">
+          <input class="icon-email" type="email"  name="email" placeholder="Для отправки ответа">
+          <p class="modal-content-text2">Текст письма:</p> 
+          <textarea class="icon-text" name="text" rows="5" placeholder="В свободной форме"></textarea>
+          <button class="modal-btn" type="submit">отправить</button>
+        </form>
+      </div>
+    </div>
+    
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-social">
+          <div class="footer-btn">
+            <a class="vk" href="vk.com"></a>
+            <a class="fb" href="facebook.com"></a>
+            <a class="im" href="instagram.com"></a>
+          </div>
+          <div class="footer-offer">
+            <p class="friends">Давайте дружить, это выгодно!</p>
+            <p class="discount">Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
