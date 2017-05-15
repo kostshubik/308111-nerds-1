@@ -769,6 +769,8 @@ header {
     font-weight: 700;
     letter-spacing: 0.7px;
     margin-right: 276px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .sort-bar11 {
@@ -779,6 +781,8 @@ header {
     line-height: 30px;
     font-weight: 700;
     margin-right: 284px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .sort-bar2 {
